@@ -15,7 +15,7 @@
         <div class="col-md-8">
             @include('includes.header')
 
-            <ul class="breadcrumb">
+            <ul class="breadcrumb-1">
                 <li><a href="/" title="{{ __('misc.home_alt') }}"
                        alt="{{ __('misc.home_alt') }}">{{ __('misc.home') }}</a></li>
                 @yield('breadcrumb')
@@ -27,7 +27,7 @@
                 @yield('content')
             @endif
 
-            <ul class="breadcrumb">
+            <ul class="breadcrumb-2">
                 <li>
 					<a href="/" title="{{ __('misc.home_alt') }}" alt="{{ __('misc.home_alt') }}">{{ __('misc.home') }}</a>
 				</li>
