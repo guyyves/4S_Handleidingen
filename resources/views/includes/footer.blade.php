@@ -1,6 +1,25 @@
 
 <footer>
-	© {{ __('misc.copyright') }}
+  
+    <div class="footer-items">
+      <div class="footer-item-ons">
+        <h2>Over Ons</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Magnam eaque voluptatem qui. Placeat distinctio ex recusandae dicta. 
+          Doloribus excepturi eaque corrupti sapiente, laborum,
+          velit reprehenderit maiores perferendis fuga, voluptates enim?
+        </p>
+      </div>
+      <div class="footer-item-contact">
+         <p><span>E-mail</span>: Manuelfiller@dummy.com</p>
+         <p><span>Telefoon</span>: 0639392191</p>
+         <p><span></span></p>
+      </div>
+      <div class="footer-item-links">
+
+      </div>
+    </div>
+      © {{ __('misc.copyright') }}
 </footer>
 
 
