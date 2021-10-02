@@ -1,25 +1,24 @@
-
 <footer>
-  
-    <div class="footer-items">
-      <div class="footer-item-ons">
-        <h2>Over Ons</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Magnam eaque voluptatem qui. Placeat distinctio ex recusandae dicta. 
-          Doloribus excepturi eaque corrupti sapiente, laborum,
-          velit reprehenderit maiores perferendis fuga, voluptates enim?
-        </p>
-      </div>
-      <div class="footer-item-contact">
-         <p><span>E-mail</span>: Manuelfiller@dummy.com</p>
-         <p><span>Telefoon</span>: 0639392191</p>
-         <p><span></span></p>
-      </div>
-      <div class="footer-item-links">
-
+  <div class="extra_foot">
+    <div class="socials">
+      <h3>You can find us on:</h3>
+      <a href="~dummy~">@Avarix on twitter</a>
+      <a href="~dummy~">@Avarix on instagram</a>
+      <a href="~dummy~">Avarix on Facebook</a>
+    </div>
+    <div class="contact">
+      <h3>Contact info:</h3>
+      <div class="contact_info">
+        <p>Email:~Averix@dummy.com~</p>
+        <p>Telephone number:~31 958 948~</p>
       </div>
     </div>
-      © {{ __('misc.copyright') }}
+    <div class="about">
+      <h3>about us:</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Harum deserunt blanditiis error ipsa, voluptates illum modi assumenda rerum illo,<br> sunt aliquam natus maxime, quo quod et sapiente deleniti aperiam accusamus?</p>
+    </div>
+  </div>
+  © {{ __('misc.copyright') }}
 </footer>
 
 

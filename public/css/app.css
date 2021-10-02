@@ -577,8 +577,7 @@ justify-content: center;
 }
 
 footer{
-  background-color:#343a40;
-  color:white;
+  
   text-align: center;
   height:50px;
   width:100%;
@@ -587,6 +586,39 @@ footer{
   left: 0;
 }
 
+.extra_foot{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.socials{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: baseline;
+    align-content: stretch;
+}
+.contact{
+  display: grid;
+}
+.contact_info{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: baseline;
+    align-content: stretch;
+}
+.about{
+    display: grid
+}
+footer{
+  background-color: #343a40 !important;
+  color: #f8f9fa;
+  overflow: auto;
+  height: auto;
+}
+   
 
 
 .no-gutters {
