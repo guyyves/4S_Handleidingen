@@ -9,6 +9,11 @@ class Manual extends Model
 {
     use HasFactory;
 
+    public function incrementReadCount() {
+        $this->reads++;
+        return $this->save();
+    }
+
     public function types()
     {
         return $this->belongsToMany(Type::class);
