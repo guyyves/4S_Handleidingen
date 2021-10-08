@@ -578,13 +578,16 @@ justify-content: center;
 }
 
 footer{
-  
   text-align: center;
   height:auto;
   width:100%;
   position: relative;
   bottom:0;
   left: 0;
+  background-color: #343a40 !important;
+  color: #f8f9fa;
+  overflow: auto;
+  height: auto;
 }
 
 .extra_foot{
@@ -613,12 +616,7 @@ footer{
 .about{
     display: grid
 }
-footer{
-  background-color: #343a40 !important;
-  color: #f8f9fa;
-  overflow: auto;
-  height: auto;
-}
+
    
 
 

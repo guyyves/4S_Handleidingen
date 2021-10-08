@@ -1,10 +1,10 @@
 <footer>
   <div class="extra_foot">
     <div class="socials">
-      <h3>You can find us on:</h3>
-      <a href="~dummy~">@Avarix on twitter</a>
-      <a href="~dummy~">@Avarix on instagram</a>
-      <a href="~dummy~">Avarix on Facebook</a>
+      <h3>Socials:</h3>
+      <a href="~dummy~">twitter: @Avarix</a>
+      <a href="~dummy~">instagram: @Avarix</a>
+      <a href="~dummy~">Facebook: Avarix</a>
     </div>
     <div class="contact">
       <h3>Contact info:</h3>
